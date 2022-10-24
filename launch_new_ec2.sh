@@ -5,6 +5,6 @@
 
 
 aws ec2 run-instances --image-id ami-0dc2d3e4c0f9ebd18 --count 1 --region us-east-1 --instance-type t2.micro \
---key-name webServer2 --subnet-id subnet-336f9d02 --security-group-ids sg-0c806802ce5193e5b \
+--key-name webServer2 --subnet-id subnet-xxxxxx --security-group-ids sg-xxxxxx \
 --user-data file://lamp_db_install.sh
 
